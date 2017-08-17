@@ -17,7 +17,7 @@ namespace Extensions
             return typeIn.IsSubclassOf(typeof(System.ValueType)) || typeIn.Equals(typeof(string));
         }
 
-        private static Object BuildNestedProperty(Object target, String propertyName, Object finalValue)
+        public static Object BuildNestedProperty(Object target, String propertyName, Object finalValue)
         {
             if (String.IsNullOrEmpty(propertyName)) return target;
 
