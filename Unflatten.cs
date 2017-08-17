@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace Juritis.LegalDesk.WebUtil.Extensions
+namespace Extensions
 {
     public class Unflatten
     {
